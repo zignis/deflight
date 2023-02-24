@@ -29,7 +29,7 @@ const options = {
   plugins: [
     typescript2({
       clean: true,
-      tsconfig: './tsconfig.json',
+      tsconfig: './tsconfig.bundle.json',
       useTsconfigDeclarationDir: true,
     }),
   ],
