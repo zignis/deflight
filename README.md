@@ -13,12 +13,23 @@
 A middleware wrapper for [express](https://expressjs.com/) that skips calling the middleware for pre-flight requests.
 
 ## Installation
+
 ```shell
 # Yarn
 yarn add deflight
 
 # NPM
 npm install deflight
+```
+
+The package exports both a named and a default export:
+
+```js
+import { deflight } from "deflight";
+// Or
+import deflight from "deflight";
+
+app.use(deflight(someMiddleware));
 ```
 
 ## When to use it?

@@ -2,10 +2,10 @@
   "compilerOptions": {
     "outDir": "dist/",
     "sourceMap": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "noEmitOnError": true,
-    "target": "es5",
+    "target": "ESNext",
     "declaration": true,
     "removeComments": false,
     "noImplicitAny": true,
